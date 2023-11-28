@@ -60,7 +60,8 @@ int main () {
         {
             printf("%i° nota: %.1f \n",j+1, nota[i][j]);
         }
-
+        
+        printf("Média: %.1f",media[i]);
         printf("Situação: %s \n\n",situacao[i]);
         
     }
